@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables / secrets
+.env
+.env.*
+*.env
+secrets.json
+credentials.json
+
+# API keys (extra safety)
+*api_key*
+*secret_key*
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Vector stores
+chroma_db/
+chroma/
+faiss_index/
+*.faiss
+*.index
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Node (for any frontend work)
+node_modules/
+npm-debug.log
+
+# Uploads / generated files
+uploads/
+reports/
+output/
+data/raw/
+
+# Model files (large binary files)
+*.bin
+*.gguf
+*.safetensors
+*.pt
+*.pth
