@@ -16,6 +16,7 @@
 | Folder | Description |
 |--------|-------------|
 | [📖 AI_KNOWLEDGE_BASE](./AI_KNOWLEDGE_BASE/README.md) | Structured 7-module learning path — theory, code examples, exercises & projects |
+| [🔌 MCP_LEARNING_GUIDE](./MCP_LEARNING_GUIDE/README.md) | Hands-on guide to Model Context Protocol — 4 step-by-step projects |
 
 ---
 
@@ -47,6 +48,21 @@ Module 07 — Advanced Topics            (~15 hrs)
 ```
 
 **Total: 7 modules · 29 topics · ~100 hours**
+
+---
+
+## 🔌 MCP Learning Guide
+
+A step-by-step practical guide to **Model Context Protocol (MCP)** — the open standard by Anthropic that lets Claude connect to your own tools and data.
+
+```
+Step 1 — Hello World       Build your first MCP server with Tools
+Step 2 — Resources         Expose data via URI-based Resources
+Step 3 — Prompts           Create reusable Prompt templates
+Step 4 — Real Project      Full server: live weather + persistent notes
+```
+
+> 📁 See [MCP_LEARNING_GUIDE](./MCP_LEARNING_GUIDE/README.md) for full details.
 
 ---
 
@@ -119,6 +135,7 @@ Module_XX/
 | **Web** | FastAPI, WebSockets, Server-Sent Events |
 | **MLOps** | LangSmith, Prometheus, OpenTelemetry |
 | **Protocol** | Model Context Protocol (MCP) |
+| **MCP Tools** | MCP Python SDK, httpx, Open-Meteo |
 
 ---
 
